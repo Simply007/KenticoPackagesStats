@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#root,
+.fullheight {
+    height: 100%;
+}
+
+#root {
+    @import 'components/module';
+    @import 'pages/module';
+}
